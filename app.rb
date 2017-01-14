@@ -1,5 +1,5 @@
 require 'sinatra'
-
+set :port, 80
 helpers do
   def protected!
     return if authorized?
